@@ -1,6 +1,6 @@
-package io.github.juli0mendes.school.recommendation;
+package io.github.juli0mendes.school.domain.recommendation;
 
-import io.github.juli0mendes.school.studant.Studant;
+import io.github.juli0mendes.school.domain.studant.Studant;
 
 import java.time.LocalDateTime;
 
