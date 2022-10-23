@@ -10,6 +10,12 @@ public class Studant {
     private Email email;
     private List<Phone> phones = new ArrayList<>();
 
+    public Studant(LegalDocument legalDocumentNumber, String name, Email email) {
+        this.legalDocumentNumber = legalDocumentNumber;
+        this.name = name;
+        this.email = email;
+    }
+
     public void addPhone(String areaCode, String number) {
         this.phones.add(new Phone(areaCode, number));
     }
@@ -28,5 +34,10 @@ public class Studant {
 
     public List<Phone> getPhones() {
         return phones;
+    }
+
+    public static void main(String[] args) {
+//        Studant s = new Studant(new LegalDocument("123"), "Julio", new Email("jmendes@live.com"));
+        Studant s = new Studant(new LegalDocument("123"), "Julio", new Email("jmendes@live.com"));
     }
 }

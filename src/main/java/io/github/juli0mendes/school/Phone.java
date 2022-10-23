@@ -14,10 +14,10 @@ public class Phone {
     }
 
     public String getAreaCode() {
-        return areaCode;
+        return this.areaCode;
     }
 
     public String getNumber() {
-        return number;
+        return this.number;
     }
 }

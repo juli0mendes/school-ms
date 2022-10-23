@@ -14,6 +14,6 @@ public class LegalDocument {
     }
 
     public String getNumber() {
-        return number;
+        return this.number;
     }
 }
