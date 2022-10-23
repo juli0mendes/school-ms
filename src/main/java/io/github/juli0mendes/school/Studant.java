@@ -35,9 +35,4 @@ public class Studant {
     public List<Phone> getPhones() {
         return phones;
     }
-
-    public static void main(String[] args) {
-//        Studant s = new Studant(new LegalDocument("123"), "Julio", new Email("jmendes@live.com"));
-        Studant s = new Studant(new LegalDocument("123"), "Julio", new Email("jmendes@live.com"));
-    }
 }
