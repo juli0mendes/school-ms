@@ -5,13 +5,13 @@ import java.util.List;
 
 public class Studant {
 
-    private LegalDocument legalDocumentNumber;
+    private LegalDocument legalDocument;
     private String name;
     private Email email;
     private List<Phone> phones = new ArrayList<>();
 
     public Studant(LegalDocument legalDocumentNumber, String name, Email email) {
-        this.legalDocumentNumber = legalDocumentNumber;
+        this.legalDocument = legalDocumentNumber;
         this.name = name;
         this.email = email;
     }
@@ -20,16 +20,16 @@ public class Studant {
         this.phones.add(new Phone(areaCode, number));
     }
 
-    public LegalDocument getLegalDocumentNumber() {
-        return legalDocumentNumber;
+    public String getLegalDocument() {
+        return legalDocument.getNumber();
     }
 
     public String getName() {
         return name;
     }
 
-    public Email getEmail() {
-        return email;
+    public String getEmail() {
+        return email.getAddress();
     }
 
     public List<Phone> getPhones() {
