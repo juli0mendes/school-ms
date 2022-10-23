@@ -14,11 +14,16 @@ public class StudantBuilder {
         return this;
     }
 
+    public Studant build() {
+        return this.studant;
+    }
+
 //    public static void main(String[] args) {
 //        StudantBuilder builder = new StudantBuilder();
 //        builder
 //                .withNameAndLegalDocumentNumberAndEmail("", "", "")
 //                .withPhones("", "")
-//                .withPhones("", "");
+//                .withPhones("", "")
+//                .build();
 //    }
 }
