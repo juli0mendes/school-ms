@@ -1,6 +1,4 @@
-package io.github.juli0mendes.school.infrastructure.studant;
-
-import io.github.juli0mendes.school.domain.studant.LegalDocument;
+package io.github.juli0mendes.school.domain.studant;
 
 public class StudantNotExistsException extends RuntimeException {
 
