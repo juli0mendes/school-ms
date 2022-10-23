@@ -12,4 +12,12 @@ public class Phone {
         this.areaCode = areaCode;
         this.number = number;
     }
+
+    public String getAreaCode() {
+        return areaCode;
+    }
+
+    public String getNumber() {
+        return number;
+    }
 }

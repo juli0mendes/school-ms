@@ -13,4 +13,20 @@ public class Studant {
     public void addPhone(String areaCode, String number) {
         this.phones.add(new Phone(areaCode, number));
     }
+
+    public LegalDocument getLegalDocumentNumber() {
+        return legalDocumentNumber;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Email getEmail() {
+        return email;
+    }
+
+    public List<Phone> getPhones() {
+        return phones;
+    }
 }
