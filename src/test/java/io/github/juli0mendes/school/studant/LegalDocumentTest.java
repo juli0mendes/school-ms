@@ -1,4 +1,4 @@
-package io.github.juli0mendes.school;
+package io.github.juli0mendes.school.studant;
 
 import org.junit.jupiter.api.Test;
 

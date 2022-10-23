@@ -1,9 +1,9 @@
-package io.github.juli0mendes.school;
+package io.github.juli0mendes.school.studant;
 
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class EmailTest {
 
