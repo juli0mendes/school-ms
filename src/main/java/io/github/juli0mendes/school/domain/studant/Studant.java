@@ -36,4 +36,8 @@ public class Studant {
     public List<Phone> getPhones() {
         return phones;
     }
+
+    public String getPassword() {
+        return password;
+    }
 }
