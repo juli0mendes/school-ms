@@ -1,4 +1,4 @@
-package io.github.juli0mendes.school.application.recommendation;
+package io.github.juli0mendes.school.domain.recommendation;
 
 import io.github.juli0mendes.school.domain.studant.Studant;
 
